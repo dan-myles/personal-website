@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className={ComicNeue.className}>
       <div
-        className="m-auto mt-[10vh] flex max-w-[70rem] flex-col items-stretch 
+        className="m-auto mt-[10vh] flex max-w-[70rem] flex-col items-stretch
          border-4 border-black bg-neutral-400 text-center shadow-2xl shadow-black"
       >
         <div className="mr-20 flex items-center justify-center bg-neutral-400 p-2">
@@ -30,14 +30,14 @@ export default function Home() {
           </span>
         </div>
         <ul
-          className="mt-[-80px] flex items-center  justify-center border-b-black 
-            bg-neutral-400 p-4 text-xl text-blue-700 underline"
+          className="mt-[-80px] flex items-center justify-center
+            border-b-black bg-neutral-400 p-4 text-xl text-blue-700 underline"
         >
           <li className="rounded-l-2xl bg-amber-100 p-4">
-            <a href="https://linkedin.com/in/danlikestocode/">LinkedIn</a>
+            <a href="https://linkedin.com/in/dan-myles/">LinkedIn</a>
           </li>
           <li className="bg-amber-100 p-4">
-            <a href="https://github.com/danlikestocode/">GitHub</a>
+            <a href="https://github.com/dan-myles/">GitHub</a>
           </li>
           <li className="rounded-r-2xl bg-amber-100 p-4">
             <a href="mailto:contact@dans.software">Email</a>
