@@ -1,33 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+      <h1 className="scroll-m-20 mb-[-25px] text-3xl font-extrabold tracking-tight lg:text-4xl">
+        avvo
+      </h1>
+      <p className="text-xl leading-7 [&:not(:first-child)]:mt-6 italic">
+        senior computer science student @ asu
       </p>
+      <a href="mailto:contact@avvo.dev" className="underline text-xl">
+        <td className="pr-4">email</td>
+      </a>
+      <a href="https://github.com/avvo-na" className="underline text-xl">
+        <td className="pr-4">github</td>
+      </a>
+      <a href="https://avvo.dev/blog" className="underline text-xl">
+        <td className="pr-4">blog</td>
+      </a>
     </>
   )
 }
