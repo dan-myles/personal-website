@@ -8,7 +8,7 @@ export const DATA = {
   location: "Phoenix, AZ",
   locationLink: "https://www.google.com/maps/place/phoenix",
   description:
-    "Aspiring Backend Engineer from Mexico City 🇲🇽 now residing in Phoenix, AZ. Passionate about building reliable & scalable systems.",
+    "Aspiring Software Engineer from Mexico City 🇲🇽 now residing in Phoenix, AZ. Passionate about building reliable & scalable systems.",
   summary:
     "I never know what to write here! I'm Dan, I love building performant and scalable systems. Most of my work is written in some sort of systems language, and I love messing with tools like Docker & SST (IaC). I spend too much time messing with my neovim config (oops), also love working out & going to the gym :)",
   avatarUrl: "/pfp1.png",
@@ -65,10 +65,10 @@ export const DATA = {
       start: "Jul 2024",
       end: "Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Developed a data analytics engine and content screening platform in Go for Discord. Tracked and analyzed over 32,000+ events a week from over 10,000+ MAU’s. Designed an effective administrator UI in React/Typescript to serve analytics to staff. Built an in-house authentication system with OAuth2 and persistent database session tracking. Deployed and maintained multiple Docker containers to AWS using EC2 instances. Managed complex database migrations with SQL, optimizing performance and ensuring data integrity.",
     },
     {
-      company: "Private Markets",
+      company: "Alcove Ridge Consulting",
       badges: [],
       href: "https://www.linkedin.com/company/alcoveridge/",
       location: "Tempe, AZ",
@@ -77,7 +77,7 @@ export const DATA = {
       start: "Jan 2024",
       end: "Jun 2024",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Planned and built a mobile application in React Native, Typescript using Expo. Integrated with a custom backend API, managed state with Zustand. Built & distributed application versions to both Google Play Store and Apple App Store. Designed and implemented a responsive interface using JS/CSS/HTML.",
     },
   ],
   education: [
