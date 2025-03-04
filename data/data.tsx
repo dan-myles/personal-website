@@ -38,7 +38,7 @@ export const PROJECTS: Project[] = [
     description:
       "ASU's official open-source verification & custom AI RAG Discord application.",
     image: "https://i.imgur.com/W9XGJFh.png",
-    link: "https://forkman.devil2devil.asu.edu",
+    link: "https://github.com/dan-myles/forkman",
     id: "project2",
   },
 ]
