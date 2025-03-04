@@ -17,8 +17,8 @@ export const DESCRIPTION = () => {
       Welcome! 👋
       <br />
       I’m passionate about architecting robust and scalable backend systems,
-      uniting code and infrastructure to craft seamless fullstack experiences.
-      This is my blog, and persoal website, where I share my thoughts and
+      uniting code and infrastructure to craft seamless full stack experiences.
+      This is my blog, and personal website, where I share my thoughts and
       insights on design, development, and technology.
     </>
   )
