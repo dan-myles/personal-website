@@ -91,7 +91,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
   {
     label: "Instagram",
-    link: "https://www.instagram.com/dan_myles__",
+    link: "https://www.instagram.com/danmyles",
   },
 ]
 
