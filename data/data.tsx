@@ -45,10 +45,17 @@ export const PROJECTS: Project[] = [
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
+    company: "American Eagle",
+    title: "Front End Developer",
+    start: "May 2025",
+    end: "Present",
+    id: "work0",
+  },
+  {
     company: "Alcove Ridge Consulting",
     title: "Full Stack Developer",
     start: "Oct 2024",
-    end: "Present",
+    end: "May 2025",
     id: "work1",
   },
   {
