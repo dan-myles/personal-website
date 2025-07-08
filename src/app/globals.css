@@ -1,5 +1,58 @@
 @import "tailwindcss";
 
+html, body {
+  min-height: 100vh;
+  height: 100%;
+}
+
+
+
+html::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(71, 85, 105, 0.02) 2px,
+      rgba(71, 85, 105, 0.02) 4px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 2px,
+      rgba(100, 116, 139, 0.015) 2px,
+      rgba(100, 116, 139, 0.015) 4px
+    );
+  pointer-events: none;
+  z-index: -1;
+}
+
+html::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    radial-gradient(ellipse at center, transparent 0%, rgba(148, 163, 184, 0.05) 100%),
+    linear-gradient(45deg,
+      rgba(248, 250, 252, 0.3) 0%,
+      rgba(241, 245, 249, 0.2) 25%,
+      rgba(226, 232, 240, 0.3) 50%,
+      rgba(203, 213, 225, 0.25) 75%,
+      rgba(248, 250, 252, 0.3) 100%
+    );
+  pointer-events: none;
+  z-index: -1;
+}
+
 a {
   &:hover {
     text-decoration: underline;

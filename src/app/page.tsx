@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="px-18 py-10 md:px-48 md:py-24 w-full">
+    <main className="px-18 py-10 md:px-48 md:py-24 w-full text-slate-800 relative z-10">
       <section className="grid grid-cols-[20vw_1fr] gap-10">
         <p className="font-semibold text-right">DANIEL MYLES AGUILERA</p>
         <div>

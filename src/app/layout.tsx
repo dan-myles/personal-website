@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="bg-[#EDE8D0]">
+    <html lang="en">
       <body className={`${ibmPlexSerif.className} antialiased`}>
         {children}
       </body>
