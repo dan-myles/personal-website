@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="px-18 py-10 md:px-48 md:py-24 w-full text-slate-800 relative z-10">
-      <section className="grid grid-cols-[20vw_1fr] gap-10">
+    <main className="px-18 py-10 md:px-48 md:py-24 w-full text-white relative z-10" style={{ fontFamily: '"Fira Code", monospace' }}>
+      <section className="grid grid-cols-[20vw_0.8fr] gap-10">
         <p className="font-semibold text-right">DANIEL MYLES AGUILERA</p>
         <div>
           <p>EXPERIENCED SOFTWARE ENGINEER</p>
@@ -11,11 +11,19 @@ export default function Home() {
           <p>LOVING DOG FATHER</p>
         </div>
 
+        <p className="font-semibold text-right">SKILLS</p>
+        <div>
+          Typescript, React, Next.js, CSS,
+          Tailwind, AWS, Docker, Node.js,
+          PostgreSQL, Vercel, Linux,
+          Bash, Neovim, Tmux, Go
+        </div>
+
         <p className="font-semibold text-right">CURRENT</p>
         <div>
           <p>
             FRONTEND DEVELOPER
-            <span className="text-sm">- AMERICAN EAGLE</span>
+            <span className="text-sm"> - AMERICAN EAGLE</span>
           </p>
         </div>
 
