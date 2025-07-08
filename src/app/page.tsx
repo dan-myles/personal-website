@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="px-18 py-10 md:px-48 md:py-24 w-full text-white relative z-10" style={{ fontFamily: '"Fira Code", monospace' }}>
-      <section className="grid grid-cols-[20vw_0.8fr] gap-10">
+      <section className="grid grid-cols-[20vw_1fr] gap-10">
         <p className="font-semibold text-right">DANIEL MYLES AGUILERA</p>
         <div>
           <p>EXPERIENCED SOFTWARE ENGINEER</p>
@@ -12,7 +12,7 @@ export default function Home() {
         </div>
 
         <p className="font-semibold text-right">SKILLS</p>
-        <div>
+        <div className="max-w-[350px]">
           Typescript, React, Next.js, CSS,
           Tailwind, AWS, Docker, Node.js,
           PostgreSQL, Vercel, Linux,
