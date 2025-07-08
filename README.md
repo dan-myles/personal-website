@@ -1,3 +1,3 @@
 # Personal Website
 
-This is my personal website, built with Next.js and Tailwind CSS.
+> Built with Next.js & Tailwind, purposefully simple.
