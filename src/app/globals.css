@@ -27,9 +27,6 @@ html::before {
   animation: terminal-flicker 2s ease-in-out infinite reverse, scanline 8s linear infinite;
 }
 
-
-
-
 a {
   &:hover {
     text-decoration: underline;
