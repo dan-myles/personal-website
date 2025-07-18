@@ -11,12 +11,14 @@ export default function Home() {
           <p>LOVING DOG FATHER</p>
         </div>
 
-        <p className="font-semibold text-right">SKILLS</p>
-        <div className="max-w-[350px]">
-          Typescript, React, Next.js, CSS,
-          Tailwind, AWS, Docker, Node.js,
-          PostgreSQL, Vercel, Linux,
-          Bash, Neovim, Tmux, Go
+        <p className="font-semibold text-right">AWARDS</p>
+        <div>
+          <p>
+            ASU STUDENT EMPLOYEE OF THE YEAR
+          </p>
+          <p>
+            ASU TECHNOLOGY AND INNOVATION AWARD
+          </p>
         </div>
 
         <p className="font-semibold text-right">CURRENT</p>
