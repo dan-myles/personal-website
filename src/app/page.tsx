@@ -11,16 +11,6 @@ export default function Home() {
           <p>LOVING DOG FATHER</p>
         </div>
 
-        <p className="font-semibold text-right">AWARDS</p>
-        <div>
-          <p>
-            ASU STUDENT EMPLOYEE OF THE YEAR
-          </p>
-          <p>
-            ASU TECHNOLOGY AND INNOVATION AWARD
-          </p>
-        </div>
-
         <p className="font-semibold text-right">CURRENT</p>
         <div>
           <p>
@@ -41,6 +31,24 @@ export default function Home() {
           </p>
           <p>
             SOFTWARE ENGINEER INTERN
+            <span className="text-sm"> - ASU</span>
+          </p>
+        </div>
+
+        <p className="font-semibold text-right">AWARDS</p>
+        <div>
+          <p>
+            ASU STUDENT EMPLOYEE OF THE YEAR
+          </p>
+          <p>
+            ASU TECHNOLOGY AND INNOVATION AWARD
+          </p>
+        </div>
+
+        <p className="font-semibold text-right">EDUCATION</p>
+        <div>
+          <p>
+            B.S. in Computer Science
             <span className="text-sm"> - ASU</span>
           </p>
         </div>
