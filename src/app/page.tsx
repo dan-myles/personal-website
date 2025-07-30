@@ -44,7 +44,7 @@ export default function Home() {
         <p className="font-semibold text-right">EDUCATION</p>
         <div>
           <p>
-            B.S. in Computer Science
+            B.S. COMPUTER SCIENCE
             <span className="text-sm"> - ASU</span>
           </p>
         </div>
