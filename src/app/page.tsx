@@ -14,13 +14,17 @@ export default function Home() {
         <p className="font-semibold text-right">CURRENT</p>
         <div>
           <p>
-            FULL STACK DEVELOPER
-            <span className="text-sm"> - ALCOVE RIDGE CONSULTING</span>
+            FOUNDING ENGINEER
+            <span className="text-sm"> - GAMESTOCK</span>
           </p>
         </div>
 
         <p className="font-semibold text-right">PAST</p>
         <div>
+          <p>
+            FULL STACK DEVELOPER
+            <span className="text-sm"> - ALCOVE RIDGE CONSULTING</span>
+          </p>
           <p>
             SOFTWARE ENGINEER INTERN
             <span className="text-sm"> - ALCOVE RIDGE CONSULTING</span>
